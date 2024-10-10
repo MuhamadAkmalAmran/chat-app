@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chat Room</title>
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+        <div class="chat-header-main">
+            <img src="https://picsum.photos/id/237/200/300" alt="Room Image">
+            <h2>Product A</h2>
+        </div>
+        <div class="participants" id="participantList"></div>
+    </div>
+    <div class="chat-messages" id="chatMessages"></div>
+    <div class="message-input">
+        <input type="text" id="messageInput" placeholder="Type a message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
